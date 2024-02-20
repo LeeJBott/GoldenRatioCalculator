@@ -1,0 +1,24 @@
+-- How to use this calculator inside your Bash CLI. --
+
+A) Setup a linux alias either by running the golden.sh file. (auto install)
+
+	1) set file permissions for golden.sh:
+	   $ ls -la
+	2) change x (execute permissions for golden.sh file):
+	   $ chmod +x golden.sh
+	3) run golden.sh to auto set-up:
+	   $ ./golden.sh 
+	
+B) Alternatively: Set up an Alias yourself: (Manual Install)
+
+	1) Git clone this Github repository to your home directory: 
+	   $ git clone https://github.com/LeeJBott/GoldenRatioCalculator.git
+	2) Open /.bashrc:
+	   $ nano ~/.bashrc
+	3) Create alias: We will name it 'golden'. Scroll to bottom of /.bashrc file and type:
+	   alias golden='python3 /home/$USER/GoldenRatioCalculator/GoldenRatio.py'
+	4) Save and exit the .bashrc file (ctrl x, y)
+	5) Source /.bashsrc:
+	   $ source ~/.bashrc
+	6) everytime you type the word golden, you will run the Golden Ratio Calculator on your Linux CLI
+
