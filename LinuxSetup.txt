@@ -8,6 +8,8 @@ A) Setup a linux alias either by running the golden.sh file. (auto install)
 	   $ chmod +x golden.sh
 	3) run golden.sh to auto set-up:
 	   $ ./golden.sh 
+	4) Important!: Reset CLI after running ./golden.sh !
+           - Make Sure to Reset the CLI (close window Ctrl+d) and open a new command line instance for this to correctly work.
 	
 B) Alternatively: Set up an Alias yourself: (Manual Install)
 
