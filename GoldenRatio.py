@@ -5,8 +5,7 @@ from time import sleep
 #[a+b] is to [a] as [a] is to [b]
 
 phi = 1.618
-elim = 0.618
-alim = 1.000
+
 def ratio_a():
     print("[------a(Long)------][---b(Short)---]\n[-------------a+b(Whole)------------]") #Visual Print (for use in CLI)
     ask_a = float(input("Input your measurement (a): "))
