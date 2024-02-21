@@ -2,13 +2,15 @@
 
 A) Setup a linux alias either by running the golden.sh file. (auto install)
 
-	1) set file permissions for golden.sh:
+	1) Git clone this Github repository to your home directory: 
+	   $ git clone https://github.com/LeeJBott/GoldenRatioCalculator.git
+	2) set file permissions for golden.sh:
 	   $ ls -la
-	2) change x (execute permissions for golden.sh file):
+	3) change x (execute permissions for golden.sh file):
 	   $ chmod +x golden.sh
-	3) run golden.sh to auto set-up:
+	4) run golden.sh to auto set-up:
 	   $ ./golden.sh 
-	4) Important!: Reset CLI after running ./golden.sh !
+	5) Important!: Reset CLI after running ./golden.sh !
            - Make Sure to Reset the CLI (close window Ctrl+d) and open a new command line instance for this to correctly work.
 	
 B) Alternatively: Set up an Alias yourself: (Manual Install)
